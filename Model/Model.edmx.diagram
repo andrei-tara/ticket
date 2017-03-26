@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8f4381f5c75b483ebda31505f97373a6" Name="Diagram1">
+        <EntityTypeShape EntityType="TaskSystemModel.Customer" Width="1.5" PointX="2" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.Priority" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.ServiceType" Width="1.5" PointX="5.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.Status" Width="1.5" PointX="9" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.StatusTransition" Width="1.5" PointX="11.5" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.Ticket" Width="1.5" PointX="8.125" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.TicketType" Width="1.5" PointX="7.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TaskSystemModel.User" Width="1.5" PointX="11.5" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="TaskSystemModel.FK_CustomerTicket" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_PriorityTicket" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_ServiceTypeTicket" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_TaskStatusTask" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_ServiceTask" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_UserTicket" ManuallyRouted="false" />
+        <AssociationConnector Association="TaskSystemModel.FK_UserTicket1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

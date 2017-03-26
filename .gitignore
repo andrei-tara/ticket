@@ -1,0 +1,11 @@
+.vs
+packages
+*/bin/*
+Core/bin/
+Core/obj/
+Model/bin/
+Model/obj/
+Test/bin/
+Test/obj/
+TaskApplication/bin/
+TaskApplication/obj/
