@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="DatabaseSeeder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TicketMangerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

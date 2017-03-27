@@ -4,7 +4,7 @@ using Core.Manager;
 using Core.Service;
 using Model;
 
-namespace Test
+namespace TicketMangerTest
 {
     [TestClass]
     public class DatabaseSeeder
